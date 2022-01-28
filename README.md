@@ -1,38 +1,67 @@
-# Landing Page Project
+# Travel App
 
-This project was meant to demonstrate the JavaScript usefulness with HTML and CSS, to create an interactive site with navigation bar and some article.
+This project give the opportunity to plan trips in a simple way.
 
+## Table of contents
 
-# Table of contents
+- [About](#about-the-website)
+- [Technical](#technical)
+- [Versions](#versions)
+- [Contact Information](#contact-information)
 
-- [Project Title](#project-title)
-- [Table of contents](#table-of-contents)
-- [Installation/Usage](#installation)
-- [Development](#development)
-- [Sponsor](#sponsor)
-- [Footer](#footer)
+### About the website
 
-# Installation/Usage
-[(Back to top)](#table-of-contents)
+This allows users to add and delete travel plans via a form on the page, by giving only the city and the date parameters of the trip.
+Additional info comes from api calls.
 
-1. Open index.html in any browser.
-2. Scroll on page or click on navigation bar items.
+### Technical
 
-# Development
-[(Back to top)](#table-of-contents)
+#### Technology Used
 
-Base HTML content is in index.html, but navigation bar was created by JS in js/app.js file.
-All the css is in css/styles.css.
+- HTML
+- CSS
+- SCSS
+- JS
+- NodeJS
+- Webpack
+- Babel
 
-# Sponsor
-[(Back to top)](#table-of-contents)
+#### Steps to run the project
 
-- udacity.com
-- google.com
-- stackoverflow.com
+1. Step
+A `.env` file needs to be created in the root of the project and needs to contain the following information
 
-# Footer
-[(Back to top)](#table-of-contents)
+- **GEONAMES_API_KEY=""** obtained from [geonames](https://www.geonames.org/export/web-services.html)
+- **OPENWEATHER_API_KEY=""** obtained from [openweathermap](https://openweathermap.org/)
+- **PIXABAY_API_KEY=""** obtained from [pixabay](https://pixabay.com/api/docs/)
+
+2. Step
+
+```console
+npm install
+```
+3. Step
+Choose the mode you want to run:
+- developer mode with webpack-dev-server (`localhost:8080`)
+```console
+npm run build-dev
+```
+- production mode (`localhost:8081`)
+```console
+npm run build-prod
+npm run start
+```
+
+- run tests
+```console
+npm run test
+```
+
+### Versions
+
+- Version v1.0.2 DATE 27/01/2022
+
+### Contact Information
 
 Find me on socials:\
 <a href="https://www.facebook.com/norelle0220">

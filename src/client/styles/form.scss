@@ -1,0 +1,26 @@
+form {
+    max-width: 240px;
+    padding: 25px;
+    flex: 1;
+    height: auto;
+    background: #1d2b2b; 
+    margin: auto;
+    color: burlywood;
+    border-radius: 20px;
+    
+    button{
+        font-size: 22px;
+    }
+}
+.form-info {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    padding: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border-color: beige;
+    color: beige;
+    border-bottom: 1px solid beige;
+}

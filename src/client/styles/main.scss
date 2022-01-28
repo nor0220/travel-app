@@ -1,0 +1,30 @@
+.main{
+    font-size: 16px;
+}
+.buttons{
+    text-align: center;
+}
+button {
+    border-radius: 28px;
+    color: burlywood;
+    font-weight: bold;
+    background: #2f4f4f;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+}
+button:hover {
+    background: #2f7575;
+    text-decoration: none;
+}
+.flightinfo{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.daysuntil{
+    margin-bottom: 14px;
+}
