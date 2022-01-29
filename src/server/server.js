@@ -14,9 +14,9 @@ const geonames_api={
     key: process.env.GEONAMES_API_KEY,
 };
 
-const openweather_api={
-    url : 'https://api.openweathermap.org/',
-    key: process.env.OPENWEATHER_API_KEY,
+const weatherbit_api={
+    url : 'https://api.weatherbit.io/v2.0/forecast/daily?',
+    key: process.env.WEATHERBIT_API_KEY,
 };
 
 //current: https://api.weatherbit.io/v2.0/current?lat=35.7796&lon=-78.6382&key=API_KEY&include=minutely
@@ -50,9 +50,9 @@ app.get('/', function (req, res) {
     res.sendFile('dist/index.html')
 })
 
-app.get('/openweather_api', function (req, res) {
-    res.send(openweather_api);
-    console.log('server side log - get openweather_api:', openweather_api);
+app.get('/weatherbit_api', function (req, res) {
+    res.send(weatherbit_api);
+    console.log('server side log - get weatherbit_api:', weatherbit_api);
 });
 
 app.get('/pixabay_api', function (req, res) {

@@ -28,3 +28,79 @@ button:hover {
 .daysuntil{
     margin-bottom: 14px;
 }
+.image img{
+    width: 90%;
+}
+
+div.weather_header{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+
+    div:nth-child(1), div:nth-child(3){
+        width: 40px;
+    }
+    img{
+        width: 40px;
+    }
+}
+
+
+div.weather {
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 5px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, .2);
+}
+
+.weather{
+    table {
+        position: relative;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+
+        tr:nth-child(1) td:nth-child(1),
+        tr:nth-child(1) td:nth-child(2),
+        tr:nth-child(1) td:nth-child(3),
+        tr:nth-child(1) td:nth-child(4),
+        tr:nth-child(1) td:nth-child(5),
+        tr:nth-child(1) td:nth-child(6),
+        tr:nth-child(1) td:nth-child(7) {
+            padding-bottom: 12px;
+        }
+
+        tr:nth-child(2) td:nth-child(1),
+        tr:nth-child(2) td:nth-child(2),
+        tr:nth-child(2) td:nth-child(3),
+        tr:nth-child(2) td:nth-child(4),
+        tr:nth-child(2) td:nth-child(5),
+        tr:nth-child(2) td:nth-child(6),
+        tr:nth-child(2) td:nth-child(7) {
+            padding-bottom: 7px;
+        }
+
+        tr:nth-child(3) td:nth-child(1),
+        tr:nth-child(3) td:nth-child(2),
+        tr:nth-child(3) td:nth-child(3),
+        tr:nth-child(3) td:nth-child(4),
+        tr:nth-child(3) td:nth-child(5),
+        tr:nth-child(3) td:nth-child(6),
+        tr:nth-child(3) td:nth-child(7) {
+            padding-bottom: 7px;
+        }
+
+        tr:nth-child(2),
+        tr:nth-child(3) {
+            font-size: 14px;
+        }
+
+        tr:nth-child(3) {
+            color: #999;
+        }
+    }
+}

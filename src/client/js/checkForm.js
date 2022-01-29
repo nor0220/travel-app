@@ -1,7 +1,7 @@
 function checkFormData(form){
     let check = true;
     //check name
-    const regEx = /^[a-zA-Z\s]*$/;
+    const regEx = /^[a-zA-Z\s,]+$/;
     if(form.city.value!=null && !form.city.value.match(regEx)){
         check= false;
     }

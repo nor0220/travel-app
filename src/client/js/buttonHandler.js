@@ -1,6 +1,6 @@
 function deleteTrip(id){
     const xy = async ()=>{
-        Client.tripsData.splice(id, 1);
+        Client.tripsTestData.splice(id, 1);
     }
     xy()
     .then(function(){

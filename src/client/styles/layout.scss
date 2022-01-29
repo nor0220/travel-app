@@ -38,17 +38,18 @@ body {
         / 1fr 1fr;
     gap: 8px;
 }
-.main_left {
-    grid-area: main_left;
-}
-.main_right {
-    grid-area: main_right;
-}
 .main_left, .main_right{
     display: flex;
     flex-direction: column;
     gap: 16px;
     flex-wrap: wrap;
+}
+.main_left {
+    grid-area: main_left;
+    justify-content: center;
+}
+.main_right {
+    grid-area: main_right;
     justify-content: space-around;
 }
 .footer {

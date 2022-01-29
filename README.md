@@ -32,7 +32,7 @@ Additional info comes from api calls.
 A `.env` file needs to be created in the root of the project and needs to contain the following information
 
 - **GEONAMES_API_KEY=""** obtained from [geonames](https://www.geonames.org/export/web-services.html)
-- **OPENWEATHER_API_KEY=""** obtained from [openweathermap](https://openweathermap.org/)
+- **WEATHERBIT_API_KEY=""** obtained from [weatherbit](https://www.weatherbit.io/account/create)
 - **PIXABAY_API_KEY=""** obtained from [pixabay](https://pixabay.com/api/docs/)
 
 2. Step

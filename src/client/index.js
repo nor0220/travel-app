@@ -1,8 +1,8 @@
-import { saveData, tripsData } from './js/saveData'
-import { createNavigationBar, createTravelCards, createHTMLContent } from './js/createHTML'
+import { saveData, tripsTestData } from './js/saveData'
+import { createNavigationBar, createTravelCards, createHTMLContent, createWeatherTable } from './js/createHTML'
 import { checkFormData } from './js/checkForm'
 import { handleSubmit } from './js/formHandler'
-import { getData, getImage, getApiData } from './js/getData'
+import { getData, getImage, getApiData, getWeather } from './js/getData'
 import { deleteTrip } from './js/buttonHandler'
 
 import './styles/base.scss'
@@ -16,12 +16,14 @@ export {
     createNavigationBar,
     createTravelCards,
     createHTMLContent,
+    createWeatherTable,
     checkFormData,
     handleSubmit,
     saveData,
-    tripsData,
+    tripsTestData,
     getData,
     getImage,
     getApiData,
+    getWeather,
     deleteTrip
 }
