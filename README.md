@@ -59,7 +59,7 @@ npm run test
 
 ### Versions
 
-- Version v1.0.2 DATE 27/01/2022
+- Version v1.0.1 DATE 29/01/2022
 
 ### Contact Information
 
