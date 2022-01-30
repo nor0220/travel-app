@@ -70,7 +70,7 @@ export let tripsTestData=[
         date_start: (new Date("2022-06-17")).getTime(),
         date_end: (new Date("2022-06-23")).getTime(),
         days: 10,
-        img: "https://pixabay.com/get/gda4b6008ebad3180cc404392ce72d608f0819a7f31558e0e9a9a549a6a48a6de052d92fd780158486cf0ced82228b9b9_640.jpg",
+        img: "https://pixabay.com/get/g60f6da02c9f99eb02b98ef4d8340465d81ba49c1f70443e3da268f7ccfcff216a4d5af0f6002bea63facc27d0daa4a8e_640.jpg",
         weather: [
             {
                 high_temp: 6.5,
